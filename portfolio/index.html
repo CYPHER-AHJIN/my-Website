@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script type="module" src="/animate.js"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">Home</a>
+            <div class="nav-menu">
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#learning" class="nav-link">Learning</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#links" class="nav-link">Links</a>
+            </div>
+            <button class="nav-toggle">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+    <div id="home" class="container">
+        <div class="left-content">
+            <div class="name">
+                <h1></h1>
+            </div>
+            <p>I am a passionate and skilled programmer with expertise in multiple programming languages and web technologies. My
+                technical stack includes JavaScript, CSS, HTML, PHP, and C#, allowing me to build robust and dynamic web
+                applications. I specialize in creating responsive and user-friendly interfaces while ensuring clean, efficient, and
+                maintainable code. With a strong foundation in both front-end and back-end development, I am capable of handling
+                full-stack development projects and delivering high-quality solutions that meet modern web standards.
+                <button class="show-less">Show Less</button>
+            </p>
+        </div>
+        <div>
+            <img src="/photos/WhatsApp Image 2025-05-31 at 3.02.49 PM.jpeg" alt="my photo" class="my-photo">
+        </div>
+    </div>
+    <div id="skills" class="skills">
+        <h2 class="the-main">my skills</h2>
+        <div class="skills-container">
+            <div class="s-1">
+                <h3>Frontend Development</h3>
+                <p>Proficient in creating responsive and interactive user interfaces using modern web technologies. Experienced in building dynamic web applications with clean and efficient code.</p>
+                <div class="tech-stack">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="s-2">
+                <h3>Backend Development</h3>
+                <p>Skilled in server-side programming and database management. Capable of building robust APIs and handling complex data operations with efficiency.</p>
+                <div class="tech-stack">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>C#</span>
+                 
+                </div>
+            </div>
+            <div class="s-3">
+                <h3>Development Tools</h3>
+                <p>Experienced with various development tools and version control systems. Proficient in using modern development environments and debugging tools.</p>
+                <div class="tech-stack">
+                    <span>Git</span>
+                    <span>VS Code</span>
+                    <span>GitHub</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="learning" class="learning">
+        <h2 class="the-main">learning now</h2>
+        <div class="learning-container">
+            <div class="l-1">
+                <h3>Cybersecurity 101</h3>
+                <p>Focusing on threat prevention, ethical hacking, risk management, and secure system design to protect data and
+                infrastructure from cyber attacks.</p>
+                <div class="tech-stack">
+                    <span>Fundamentals of Cybersecurity</span>
+                    <span>Ethical Hacking & Penetration Testing</span>
+                    <span>Cryptography & Data Protection</span>
+                    <span>Incident Response & Forensics</span>
+                </div>
+            </div>
+            <div class="l-2">
+                <h3>Networking</h3>
+                <p>Exploring networking with a focus on network protocols, infrastructure design, and security. Learning to build scalable,
+                high-performance networks while ensuring reliability and security.</p>
+                <div class="tech-stack">
+                    <span>Network Protocols & Communication</span>
+                    <span>Network Security</span>
+                    <span>Network Infrastructure</span>
+                </div>
+            </div>
+            <div class="l-3">
+                <h3>Laravel</h3>
+                <p>Focus: Building scalable, secure, and maintainable web applications using Laravel, the most popular PHP framework.</p>
+                <div class="tech-stack">
+                    <span>Laravel Fundamentals</span>
+                    <span>Database & Eloquent ORM</span>
+                    <span>Authentication & Security</span>
+                    <span>OOP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <h2 class="the-main">my projects</h2>
+        <div class="projects-container">
+            <div class="p-1">
+                <h3>E-Commerce Website</h3>
+                <p>A full-stack e-commerce platform built with HTML, CSS, JavaScript, and PHP. Features include user authentication, product catalog, shopping cart, and payment integration.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                </div>
+            </div>
+            <div class="p-2">
+                <h3>Task Management App</h3>
+                <p>A responsive task management application with real-time updates. Users can create, edit, and track their tasks with a clean and intuitive interface.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>C#</span>
+                </div>
+            </div>
+            <div class="p-3">
+                <h3>Portfolio Website</h3>
+                <p>A modern portfolio website showcasing my work and skills. Features smooth animations, responsive design, and interactive elements.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="p-4">
+                <h3>#############</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aut dolor fuga consectetur quam eaque aperiam id cum corporis quis deserunt quos adipisci nulla vero. Incidunt temporibus quidem quasi autem?</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="p-5">
+                <h3>#############</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aut dolor fuga consectetur quam eaque aperiam
+                    id cum corporis quis deserunt quos adipisci nulla vero. Incidunt temporibus quidem quasi autem?</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="links" class="links">
+        <h2 class="the-main">my links</h2>
+        <div class="links-container">
+            <a href="https://github.com/yourusername" target="_blank" class="link-card">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/nagaty-ayman-a63a92356" target="_blank" class="link-card">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://Instagram.com/nagaty_ahjin" target="_blank" class="link-card">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://codepen.io/CYPHER-AHJIN" target="_blank" class="link-card">
+                <i class="fab fa-codepen"></i>
+                <span>CodePen</span>
+            </a>
+        </div>
+    </div>
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <footer class="copyright">
+        <p>&copy; 2025 Nagaty Ayman. All rights reserved.</p>
+    </footer>
+</body>
+</html>
